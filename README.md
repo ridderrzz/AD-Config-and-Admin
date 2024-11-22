@@ -25,4 +25,4 @@ Capstone project from TCM Security Practical Help Desk Course. This document wil
 
 1) Firstly, you will need to download the disk images for Windows Server 2022 and Windows 11 Enterprise. A free evaluation copy can be downloaded from the [Microsoft Evaluation Centre](https://www.microsoft.com/en-gb/evalcenter)
 2) Inside VMWare, select create a new virtual machine and follow the instructions.
-!AD-Config-and-Admin/Images/VMWare 3.png
+!(AD-Config-and-Admin/Images/VMWare 3.png)
