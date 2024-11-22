@@ -20,3 +20,9 @@ Capstone project from TCM Security Practical Help Desk Course. This document wil
 3) Once you access the support portal, navigate to Software > VMware Cloud Foundation > My Downloads.
 4) Select VMware Workstation Pro and then select the latest version for your operating system (If you are to do this project on Mac OS, you will need to Select VMWare Fusion instead).
 5) Accept the terms and conditions, download the installer and follow the installation instructions.
+
+## Configuring Virtual Machines
+
+1) Firstly, you will need to download the disk images for Windows Server 2022 and Windows 11 Enterprise. A free evaluation copy can be downloaded from the [Microsoft Evaluation Centre](https://www.microsoft.com/en-gb/evalcenter)
+2) Inside VMWare, select create a new virtual machine and follow the instructions.
+!/Images/VMWare 3.png
