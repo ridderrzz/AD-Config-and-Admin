@@ -18,14 +18,19 @@ Capstone project from TCM Security Practical Help Desk Course. This document wil
 1) You will need to download a hypervisor. For this project, VMware Workstation Pro will be used and can be downloaded [here](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion).
 2) When you click on the link to download VMware, you will be redirected to the Broadcom Support Portal where you will need to create an account.
 3) Once you access the support portal, navigate to Software > VMware Cloud Foundation > My Downloads.
-4) Select VMware Workstation Pro and then select the latest version for your operating system (If you are to do this project on Mac OS, you will need to Select VMWare Fusion instead).
+4) Select VMware Workstation Pro and then select the latest version for your operating system (If you are to do this project on Mac OS, you will need to Select *VMWare Fusion instead*).
 5) Accept the terms and conditions, download the installer and follow the installation instructions.
 
 ## Configuring Virtual Machines
 
 1) Firstly, you will need to download the disk images for Windows Server 2022 and Windows 11 Enterprise. A free evaluation copy can be downloaded from the [Microsoft Evaluation Centre](https://www.microsoft.com/en-gb/evalcenter)
 2) Inside VMWare, select create a new virtual machine and follow the instructions.
-3) When asked for the OS Image, select "I will install the OS myself later" ![New Virtual Machine Wizard](/assets/images/VMware3.jpg)
+3) When asked for the OS Image, select "I will install the operating system later" ![New Virtual Machine Wizard](/assets/images/VMware3.jpg)
 4) Name the first virtual machine Windows Server 2022, as that is what will be installed first. 
 5) Continue the setup with the default settings. Then in the hardware settings, mount the OS Image that you downloaded earlier.
-6) Repeat steps 1-5 for Windows 11 Enterprise
+6) Repeat steps 2-5 for Windows 11 Enterprise
+
+## Installing Windows
+### Regarding Windows installation, it is sufficient to use the default settings and follow the Windows Setup wizard. Although it is important to make note of the following:
+- When asked to select the OS to install, select *Windows Server 2022 Standard Evaluation (Desktop Experience)*![Windows Setup/OS Selection Screen](/assets/images/Windows Server 1.jpg)
+- Ensure you install a custom installation for both Windows 11 and Windows Server
