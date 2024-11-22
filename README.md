@@ -15,7 +15,7 @@ Capstone project from TCM Security Practical Help Desk Course. This document wil
 
 ## Installing the Hypervisor
 
-1) You will need to download a hypervisor. For this project, VMware Workstation Pro will be used and can be downloaded here(https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion).
+1) You will need to download a hypervisor. For this project, VMware Workstation Pro will be used and can be downloaded [here](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion).
 2) When you click on the link to download VMware, you will be redirected to the Broadcom Support Portal where you will need to create an account.
 3) Once you access the support portal, navigate to Software > VMware Cloud Foundation > My Downloads.
 4) Select VMware Workstation Pro and then select the latest version for your operating system (If you are to do this project on Mac OS, you will need to Select VMWare Fusion instead).
