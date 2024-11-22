@@ -32,5 +32,6 @@ Capstone project from TCM Security Practical Help Desk Course. This document wil
 
 ## Installing Windows
 ### Regarding Windows installation, it is sufficient to use the default settings and follow the Windows Setup wizard. Although it is important to make note of the following:
-- When asked to select the OS to install, select *Windows Server 2022 Standard Evaluation (Desktop Experience)*![Windows Setup/OS Selection Screen](/assets/images/Windows Server 1.jpg)
+- When asked to select the OS to install, select *Windows Server 2022 Standard Evaluation (Desktop Experience)*
+![Windows Setup/OS Selection Screen](/assets/images/WindowsServer1.jpg)
 - Ensure you install a custom installation for both Windows 11 and Windows Server
