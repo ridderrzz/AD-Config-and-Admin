@@ -42,7 +42,6 @@ Capstone project from TCM Security Practical Help Desk Course. This document wil
 3) Select *Active Directory Domain Services* and add the extra features required
 4) Continue the wizard with the default parameters and settings
 5) Ensure that on the confirmation screen *restart the destination server automatically if required* is enabled
-
 <img src="/assets/images/WindowsServer2.jpg" width="1000" height="450">
 
 6) Once the active directory services have installed, select *Promote this server to a domain controller*
@@ -52,7 +51,6 @@ Capstone project from TCM Security Practical Help Desk Course. This document wil
 10) Once the prerequisite checks are complete, click install
 11) Once the server has restarted, install *Active Directory Certificate Services (AD CS)*
 12) Configure AD CS with the default settings and finish installation
-
 <img src="/assets/images/WindowsServer4.jpg" width="1000" height="450">
 
 ## Linking Windows 11 Client with Active Domain Controller
@@ -62,8 +60,10 @@ Capstone project from TCM Security Practical Help Desk Course. This document wil
 3) Right click the network adapter and select properties > TCP/IPV4 and fill in the necessary fields with the values from command prompt
 4) In the box corresponding to *Preferred DNS Server* assign 127.0.0.1
 <img src="/assets/images/WindowsServer8.jpg" width="1000" height="450">
+
 5) Repeat steps 1-3 for the Windows 11 client and for step 4, input the IPV4 address of the Windows 11 client
 <img src="/assets/images/Windows11.jpg" width="1000" height="450">
+
 6) On the Windows 11 Client, navigate to *add work or school account* in settings and click on *add account*
 7) Select *Join a Local Microsoft Active Directory Domain*, input the domain name and authenticate using the administrator credentials
 8) Restart and the Windows 11 Client should be part of the domain!
