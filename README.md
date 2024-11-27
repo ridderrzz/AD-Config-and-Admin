@@ -42,7 +42,7 @@ Capstone project from TCM Security Practical Help Desk Course. This document wil
 3) Select *Active Directory Domain Services* and add the extra features required
 4) Continue the wizard with the default parameters and settings
 5) Ensure that on the confirmation screen *restart the destination server automatically if required* is enabled
-<img src="/assets/images/WindowsServer2.jpg" width="680" height="450">
+<img src="/assets/images/WindowsServer2.jpg" width="800" height="450">
 6) Once the active directory services have installed, select *Promote this server to a domain controller*
 7) Select *add a new forest* and specify a root domain name of your choice
 8) In the domain controller options specify a Directory Services Restore Mode (DSRM) password
