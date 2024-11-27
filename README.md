@@ -31,7 +31,32 @@ Capstone project from TCM Security Practical Help Desk Course. This document wil
 6) Repeat steps 2-5 for Windows 11 Enterprise
 
 ## Installing Windows
-### Regarding Windows installation, it is sufficient to use the default settings and follow the Windows Setup wizard. Although it is important to make note of the following:
+### It is sufficient to use the default settings and follow the Windows Setup wizard. Although it is important to make note of the following:
 - When asked to select the OS to install, select *Windows Server 2022 Standard Evaluation (Desktop Experience)*
-<img src="/assets/images/WindowsServer1.jpg" width="600" height="400">
+<img src="/assets/images/WindowsServer1.jpg" width="480" height="600">
 - Ensure you install a custom installation for both Windows 11 and Windows Server
+
+## Domain Controller Setup
+1) In Server Manager select *add roles and features*
+2) Select *role-based or feature-based installation* and specify the server that you are going to install active directory on
+3) Select *Active Directory Domain Services* and add the extra features required
+4) Continue the wizard with the default parameters and settings
+5) Ensure that on the confirmation screen *restart the destination server automatically if required* is enabled
+6) Once the active directory services have installed, select *Promote this server to a domain controller*
+7) Select *add a new forest* and specify a root domain name of your choice
+8) In the domain controller options specify a Directory Services Restore Mode (DSRM) password
+9) Continue the wizard with the default parameters and settings
+10) Once the prerequisite checks are complete, click install
+11) Once the server has restarted, install *Active Directory Certificate Services (AD CS)*
+12) Configure AD CS with the default settings and finish installation
+
+## Linking Windows 11 Client with Active Domain Controller
+
+1) On the Domain Controller, launch command prompt as an administrator and type ipconfig and note down the IPV4 Configuration
+2) Navigate to Control Panel > Network and Internet > Network and Sharing Centre > Change adapter settings
+3) Right click the network adapter and select properties > TCP/IPV4 and fill in the necessary fields with the values from command prompt
+4) In the box corresponding to *Preferred DNS Server* assign 127.0.0.1
+5) Repeat steps 1-3 for the Windows 11 client and for step 4, input the IPV4 address of the domain controller
+6) On the Windows 11 Client, navigate to *add work or school account* in settings and click on *add account*
+7) Select *Join a Local Microsoft Active Directory Domain*, input the domain name and authenticate using the administrator credentials
+8) Restart and the Windows 11 Client should be part of the domain!
