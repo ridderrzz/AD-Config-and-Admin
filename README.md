@@ -67,3 +67,7 @@ Capstone project from TCM Security Practical Help Desk Course. This document wil
 6) On the Windows 11 Client, navigate to *add work or school account* in settings and click on *add account*
 7) Select *Join a Local Microsoft Active Directory Domain*, input the domain name and authenticate using the administrator credentials
 8) Restart and the Windows 11 Client should be part of the domain!
+
+## Active Directory Administration
+
+To be added
